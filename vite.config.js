@@ -4,5 +4,5 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: './', // Ensures relative paths work on GitHub Pages, Vercel, Netlify
+  base: '/TMCF/', // Explicit repository base path for GitHub Pages
 })
